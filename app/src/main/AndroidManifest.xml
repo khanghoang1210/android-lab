@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BTThucHanh"
+        tools:targetApi="31">
+        <activity
+            android:name=".Android5.Android5Bai3Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Android5.Android5Bai2Activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Android5.ContactInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Android5.Android5Bai1Activity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".Android4.Android4Bai2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android4.Android4Bai1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android3.Android3Bai3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android3.Android3Bai2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android3.Android3Bai1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android2.Bai3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Android2.Bai2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Android2.Bai1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
